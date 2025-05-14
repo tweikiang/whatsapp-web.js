@@ -67,16 +67,6 @@ exports.Events = {
     INCOMING_CALL: 'call',
     REMOTE_SESSION_SAVED: 'remote_session_saved',
     VOTE_UPDATE: 'vote_update'
-
-    /**
-     * Emitted when a presence update is received
-     * @event Client#presence_update
-     * @param {object} presenceData
-     * @param {string} presenceData.jid
-     * @param {boolean} presenceData.isOnline
-     * @param {number} presenceData.lastSeen
-     */
-    PRESENCE_UPDATE: 'presence_update'
 };
 
 /**
